@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/assets/spotify (2).png" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="/public/css/style.css" />
+    <link rel="stylesheet" href="/public/css/utility.css" />
+  </head>
+  <body>
+    <header class="nav flex-center-y">
+      <div class="logo flex-center-y">
+        <img src="/assets/logo.png" alt="spotify" class="filter" width="50px" />
+        <img
+          src="/assets/home.svg"
+          alt="home"
+          class="filter"
+          id="home"
+          width="35px"
+        />
+        <img src="/assets/search.svg" alt="" class="filter" width="25px" />
+        <input type="text" placeholder="What do you want to play?" />
+        <img
+          src="/assets/scanner.svg"
+          alt="scanner"
+          class="filter"
+          width="35px"
+        />
+      </div>
+      <div class="search flex-center-y">
+        <a href="#">Premium</a>
+        <a href="#">Support</a>
+        <a href="#">Download</a>
+        <span>|</span>
+        <a href="#"
+          ><img src="/assets/download.png" alt="" class="filter" width="20px" />
+          Install App</a
+        >
+        <button class="signup search-btn">Sign up</button>
+        <button class="login search-btn">Log in</button>
+      </div>
+    </header>
+    <div class="container flex m-1 p-1">
+      <div class="left">
+        <div class="heading flex-center-y">
+          <img src="/assets/playlist.svg" alt="playlist" class="filter" />
+          <h2>Your Library</h2>
+        </div>
+        <div class="songList">
+          <ul></ul>
+        </div>
+        <div class="footer">
+          <div>
+            <a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a>
+          </div>
+          <div>
+            <a href="https://www.spotify.com/jp/privacy/"
+              ><span>Privacy Center</span></a
+            >
+          </div>
+          <div>
+            <a href="https://www.spotify.com/jp/legal/privacy-policy/"
+              ><span>Privacy Policy</span></a
+            >
+          </div>
+          <div>
+            <a href="https://www.spotify.com/jp/legal/cookies-policy/"
+              ><span>Cookies</span></a
+            >
+          </div>
+          <div>
+            <a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"
+              ><span>About Ads</span></a
+            >
+          </div>
+          <div>
+            <a href="https://www.spotify.com/jp/accessibility/"
+              ><span>Accessibility</span></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="spotifyPlaylists">
+          <div class="hamburger">
+            <img src="/assets/hamburger.svg" alt="" class="hamburgerimg" />
+          </div>
+          <h1>Spotify Playlists</h1>
+          <div class="cardContainer">
+            <div class="card" role="article">
+              
+              <img
+                src="/assets/song photos/Fear-Song-From-Devara-Part-1-Telugu-Telugu-2024-20240519131003-500x500.jpg"
+                alt="Fear Song - Devara Part 1"
+                loading="lazy"
+                width="160"
+                height="160"
+              />
+              <h2>Fear Song</h2>
+              <p>Devara Part 1<br />Anirudh Ravichandran</p>
+            </div>
+            <div class="card" role="article">
+              <img
+                src="/assets/song photos/Daavudi-From-Devara-Part-1-Hindi-2024-20240904121012-500x500.jpg"
+                alt="Daavudi Song - Devara Part 1"
+                loading="lazy"
+                width="160"
+                height="160"
+              />
+              <h2>Daavudi Song</h2>
+              <p>Devara Part 1<br />Anirudh Ravichandran</p>
+            </div>
+            <div class="card" role="article">
+              <img
+                src="/assets/song photos/Jailer-Tamil-2023-20230728081443-500x500.jpg"
+                alt="Hukum Song - Jailer"
+                loading="lazy"
+                width="160"
+                height="160"
+              />
+              <h2>Hukum Song</h2>
+              <p>Jailer<br />Anirudh Ravichandran</p>
+            </div>
+            <div class="card" role="article">
+              <img
+                src="/assets/song photos/Jersey-Original-Background-Score--Telugu-2019-20190513155328-500x500.jpg"
+                alt="Original Song - Jersey"
+                loading="lazy"
+                width="160"
+                height="160"
+              />
+              <h2>Original Song</h2>
+              <p>Jersey<br />Anirudh Ravichandran</p>
+            </div>
+          </div>
+          <div class="playBar">
+            <div class="seekbar">
+              <div class="circle"></div>
+            </div>
+            <div class="abovebar">
+              <div class="songinfo"></div>
+              <div class="songButtons">
+                <img src="/assets/prevsong.svg" alt="" id="previous" />
+                <img src="/assets/play.svg" alt="" id="play" />
+                <img src="/assets/nextsong.svg" alt="" id="next" />
+              </div>
+              <div class="Tv">
+                <div class="songtime"></div>
+                <div class="volume">
+                  <img src="/assets/volume.svg" alt="volume" />
+                  <div class="range">
+                    <input type="range" name="volume" id="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
