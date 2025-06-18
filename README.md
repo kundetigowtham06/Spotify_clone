@@ -11,7 +11,7 @@
 
 ## 📸 Preview
 
-<img src="./assets/images/screenshot.png" alt="Spotify Clone Preview" width="100%"/>
+<img src="./assets/output.png" alt="Spotify Clone Preview" width="100%"/>
 
 ---
 
